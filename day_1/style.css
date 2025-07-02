@@ -1,11 +1,8 @@
-div{
-    height:100px;
-    background-color: pink;
-    width: 50px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
+h1{
+   color:blue;
+
+  background-color: yellow;
 }
-#div1{
-    border-radius: 5%;
+body{
+    background-color: pink;
 }
