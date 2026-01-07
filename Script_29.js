@@ -18,11 +18,15 @@
 // //         console.log(key);
 // //         console.log(value);
 // //     }
-// const myObj = {
-//     js:"javaScript",
-//     py:"Python",
-//     cpp:"C plus plus"
-// }
+const myObj = {
+    js:"javaScript",
+    py:"Python",
+    cpp:"C plus plus"
+}
+//console.log(myObj)
+for(const key in myObj){
+    console.log(myObj[key])
+}
 // // console.log(myObj);
 // // console.log(myObj.key);
 
@@ -59,5 +63,5 @@ const arrObj =[
 ]
 
 arrObj.forEach((item)=>{
-    console.log(item.languageName)
+    //console.log(item.languageName)
 })
