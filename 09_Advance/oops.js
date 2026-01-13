@@ -10,3 +10,6 @@ const userOne = new User("Subham",18,true);
 console.log(userOne)
 
 console.log(userOne instanceof User)
+
+//setprototypeOf() in caseof __proto__
+//As per morden syntax
