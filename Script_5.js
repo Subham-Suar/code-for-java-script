@@ -14,9 +14,9 @@ let age =19 // integer type
 //symbol =>unique
 
 
-const arr = [2,3,4,5]
+const arr1 = [2,3,4,5]
 
-for(const i of arr){
+for(const i of arr1){
   //console.log(i);
   
 }
@@ -54,8 +54,41 @@ let str = "JavaScript is fun. JavaScript is powerful";
 // console.log(str.replace("JavaScript","Java"));
 // console.log(str.replaceAll("JavaScript","Java"));
 // console.log(str.slice(0,10));
-console.log(str.split(" ")); //returns an array which contain string value 
+//console.log(str.split(" ")); //returns an array which contain string value 
 
 
 
 
+const arr = ['subham' ,'Sudhanshu' ,'Romyajit' ,'Rajesh'] ;
+
+//arr.forEach((item)=>{
+  //console.log(item);                  //o/p:- //subham
+                                      // Sudhanshu
+                                      // Romyajit
+                                      // Rajesh
+  
+//  
+
+
+arr.forEach((item,index,arry)=>{
+     // console.log(item ,index ,arr);
+      
+})
+
+
+const arrObj =[
+    {
+        languageName:"javaScript",
+        languageFilename:"js"
+    },{
+        languageName:"java",
+        languageFilename:"js"
+    },{
+        languageName:"python",
+        languageFilename:"js"
+    }
+]
+
+arrObj.forEach((item,index,array)=>{
+  console.log(item,index,array);
+})
