@@ -35,12 +35,12 @@ const { score, name } = req.body;
 
 let score1 = 33;
 let score2 ="35";
-console.log(typeof( score1)); // o/p:-number 
-console.log(typeof score2); //o/p :- string
+//console.log(typeof( score1)); // o/p:-number 
+//console.log(typeof score2); //o/p :- string
 
 let valueInNumber = Number(score2);
 
-console.log(typeof valueInNumber); // o/p :- number
+//console.log(typeof valueInNumber); // o/p :- number
 
 // "33" converted to 33
 // "33abc" => NaN
@@ -50,8 +50,16 @@ console.log(typeof valueInNumber); // o/p :- number
 
 let isLoggedin = 1 ;
 
-console.log(isLoggedin);
+//console.log(isLoggedin);
 
 let converstionType = Boolean(isLoggedin);
 
-console.log(typeof converstionType);
+//console.log(typeof converstion)
+
+
+const onCurrencyChange = (num)=>{
+    console.log(num);
+    
+}
+
+console.log(onCurrencyChange)
